@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: italic;
+    vertical-align: text-top;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+h1 span img {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px;
+}
+
+section {
+    margin: 40px auto;
+}
+
+section p {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: justify;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+a {
+    color: #000000;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+#hero {
+    height: calc(100vh - 200px);
+    width: calc(100vw - 100px);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/bg.jpg) no-repeat center; */
+    background: #000000;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #000000;
+}
+
+#hero h2 {
+    font-size: 200px;
+    font-style: normal;
+    margin: 0;
+}
+
+#skills div {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills div .skill-icon {
+    flex: 0 33.33%;
+    margin: 10px auto;
+}
+
+#skills div img {
+    max-width: 80px;
+}
+
+#works div {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#works div ul {
+    list-style: none;
+}
+
+#works div ul li {
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    pointer-events: none;
+}
+
+#works div ul li:first-of-type {
+    border-top: 1px solid #000000;
+}
+
+#works div ul li a {
+    pointer-events: all;
+    display: block;
+    min-width: 100%;
+    text-align: center;
+}
+
+#works div ul li:hover {
+    background: #000000;
+}
+
+#works div ul li a:hover {
+    color: #ffffff;
+}
+
+#footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+}
+
+#footer div span a {
+    font-weight: 300;
+    font-size: 24px;
+    vertical-align: top;
+}
+
+#footer div span a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+#footer div span img {
+    width: 30px;
+    margin-right: 5px;
+    vertical-align: top;
+}
