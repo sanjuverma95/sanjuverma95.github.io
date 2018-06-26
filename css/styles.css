@@ -83,6 +83,7 @@ a {
 
 #skills div img {
     max-width: 80px;
+    max-height: 80px;
 }
 
 #works div {
