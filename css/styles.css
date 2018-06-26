@@ -95,6 +95,8 @@ a {
 
 #works div ul {
     list-style: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
 #works div ul li {
@@ -128,11 +130,17 @@ a {
     justify-content: space-around;
     align-items: center;
     margin: 40px auto;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#footer div span {
+    margin: 10px;
+    width: 350px;
+    text-align: center;
 }
 
 #footer div span a {
-    font-weight: 300;
-    font-size: 24px;
     vertical-align: top;
 }
 
